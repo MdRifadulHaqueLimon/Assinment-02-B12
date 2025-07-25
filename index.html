@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assiment-02-B12</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <!-- This is the part of Navber (Start) -->
+    <nav
+        class="flex justify-between items-center p-6 text-black w-11/12 mx-auto text-[20px] font-semibold text-gray-500">
+        <div class=" logo">
+            <img src="assets/logo.png" alt="logo" class="w-20 h-10 md:w-40 md:h-20 ">
+        </div>
+        <div class="manu">
+            <ul class="flex space-x-4 ">
+                <li class="hover:text-black hidden md:block"><a href="#">Home</a></li>
+                <li class="hover:text-black hidden md:block"><a href="#">Shop</a></li>
+                <li class="hover:text-black hidden md:block"><a href="#">About</a></li>
+                <div class="display flex items-center space-x-2">
+                    <img src="assets/cart.png" alt="cart" class="w-8 h-8">
+                    <h1 class="text-black">Cart ($56)</h1>
+                </div>
+            </ul>
+    </nav>
+    <!-- END OF NAVBER -->
+
+
+    <!-- This is the part of Hero section (Start) -->
+    <section class="w-11/12 mx-auto flex flex-col-reverse lg:flex-row justify-between mt-30 ">
+        <!-- Text section -->
+        <div class="display-flex ">
+            <div class=" xl:mt-35 ">
+                <h1 class=" text-3xl xl:text-8xl font-bold pt-4">ALWAYS <span class="text-orange-600">FRESH <br>
+                        FLOWERS</span></h1>
+
+                <!-- For PC Disply -->
+                <p class="text-gray-500 text-2xl hidden xl:flex pt-4">
+                    Indulge your senses with the beauty and fragrance of <br>
+                    our fresh flower shop. From classic roses to exotic <br>
+                    blooms, we offer a wide variety of fresh flowers that <br>
+                    are perfect for any occasion.
+                </p>
+                <!-- For Mobile Disply -->
+                <p class="text-gray-500 text-1xl xl:hidden flex pt-4">
+                    Indulge your senses with the beauty and fragrance of
+                    our fresh flower shop. From classic roses to exotic
+                    blooms, we offer a wide variety of fresh flowers that
+                    are perfect for any occasion.
+                </p>
+
+            </div>
+        </div>
+
+        <!-- Image section -->
+        <div class="">
+            <img src="assets/hero-flower.png" alt="" class="w-200">
+        </div>
+    </section>
+    <!-- Hero section END -->
+</body>
+
+</html>
